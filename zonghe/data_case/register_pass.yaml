@@ -1,0 +1,6 @@
+# 密码小于6
+- data: {"mobilephone":18013345678,"pwd":123456}
+  expect: {"status":1,"code":"10001","data":None,"msg":"注册成功"}
+# 密码大于18
+- data: {"mobilephone":18013345639,"pwd": 123456789}
+  expect: {"status":1,"code":"10001","data":None,"msg":"注册成功"}
